@@ -1,4 +1,4 @@
 hello = "안녕하세요"
 print(hello[0:2])
 print(hello)
-print(len("안녕하세요 여러분"))
+print(len("안녕하세요 여러분")) #len()은 문자열의 길이를 구하는 함수이다.
