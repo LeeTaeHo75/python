@@ -1,0 +1,20 @@
+number = 100
+number += 10    # +=는 숫자 덧셈 후 대입하는 복합대입연산자
+print("number=", number)
+number -= 20    # -=는 숫자 뺄셈 후 대입하는 복합대입연산자
+print("number=", number)
+number *= 2     # *=는 숫자 곱셈 후 대입하는 복합대입연산자
+print("number=", number)
+number /= 3     # /=는 숫자 나눗셈 후 대입하는 복합대입연산자
+print("number=", number)
+number %= 7     # %=는 숫자의 나머지를 구한 후 대입하는 복합대입연산자
+print("number=", number)
+number **= 2    # **=는 숫자 제곱 후 대입하는 복합대입연산자
+print("number=", number)
+
+string = "안녕하세요" 
+string += "!"   # 문자열을 연결하고 대입하는 문자열 복합 대입 연산자
+print("string:", string)
+string *= 2     # 문자열을 반복 후 대입하는 문자열 복합 대입 연산자    
+print("string:", string)
+
