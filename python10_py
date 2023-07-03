@@ -1,0 +1,12 @@
+    # 이 코드는 숫자를 입력받아 양수인지 음수인지 0인지 판단하는 코드이다.
+number = input("정수 입력: ")
+number = int(number)
+
+if number > 0:
+    print("양수입니다.")
+
+if number < 0:
+    print("음수입니다.")
+
+if number == 0:
+    print("0입니다.")
