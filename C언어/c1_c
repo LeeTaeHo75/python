@@ -1,0 +1,9 @@
+#include <stdio.h> // You should include the stdio.h header for printf
+
+int main(void) // 'Main' should be 'main', and use lowercase for the function name
+{
+    printf("안녕하세요?\n"); // Use double quotes for string literals and a semicolon at the end
+    printf("이번 코드에는 많은 오류가 있다네요\n"); // Use double quotes and a semicolon
+    printf("제가 다 고쳐보겠습니다.\n"); // Use double quotes and a semicolon
+    return 0;
+}
